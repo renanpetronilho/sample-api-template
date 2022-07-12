@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: ${spring_data_mongodb_uri}
+
+server:
+  port: 8080
+
+springdoc:
+  api-docs:
+    enabled: ${springdoc_enabled}
